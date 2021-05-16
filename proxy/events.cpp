@@ -669,7 +669,7 @@ if (wrenchspam == true) {
                 }
                  if (autopull == true) {
                     try { 
-                       g_server->send(false, "action|input\n|text|/pull " +ply.name.substr(2));
+                       g_server->send(false, "action|input\n|text|/pull " +player.name.substr(2));
                       //  gt::send_log("Cooming Soon if possible");
                         
    
