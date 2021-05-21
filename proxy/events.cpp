@@ -669,6 +669,7 @@ if (wrenchspam == true) {
                 }
                  if (autopull == true) {
                     try { 
+			   std::this_thread::sleep_for(std::chrono::milliseconds(200));
                        g_server->send(false, "action|input\n|text|/pull " +ply.name.substr(2));
                       //  gt::send_log("Cooming Soon if possible");
                         
